@@ -1,2 +1,11 @@
+.videos{
+	display:grid;
+	grid-template-columns:repeat(1, auto);
 
-/* Your CSS Code here. */
+	gap:20px;
+
+}
+video{
+	max-height:200px;
+	max-width:300px;
+}
